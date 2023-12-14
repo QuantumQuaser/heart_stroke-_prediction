@@ -32,7 +32,7 @@ test_df = pd.read_csv('/path/to/stroke_test_set_nogt.csv')
 This step involves importing the necessary libraries and reading the training and testing datasets using Pandas.
 
 
-```markdown
+markdown
 # Comprehensive Stroke Risk Analysis with Machine Learning
 
 ## Project Overview
@@ -125,7 +125,7 @@ With these insights, we pivot to predictive modeling, harnessing machine learnin
 - `models/` - Serialized versions of the trained machine learning models.
 - `visuals/` - Generated visualizations from the EDA.
 
-```
+
 
 
 
