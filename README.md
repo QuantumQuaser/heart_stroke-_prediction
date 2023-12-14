@@ -45,7 +45,7 @@ The journey begins with an exploratory data analysis (EDA), which serves as the 
 
 Our dataset encapsulates a broad spectrum of ages, capturing a demographic mosaic from toddlers to the elderly. The distribution of age is particularly significant, as it directly influences the stroke risk profile.
 
-![Age Distribution](visuals/Distribution of age.png)
+![Alt Age Distribution](visuals/Distribution of age.png)
 
 *Insight:* The age distribution curve suggests a bimodal trend, hinting at varied stroke risk across different life stages.
 
