@@ -45,7 +45,8 @@ The journey begins with an exploratory data analysis (EDA), which serves as the 
 
 Our dataset encapsulates a broad spectrum of ages, capturing a demographic mosaic from toddlers to the elderly. The distribution of age is particularly significant, as it directly influences the stroke risk profile.
 
-<img src="https://github.com/QuantumQuaser/heart_stroke-_prediction/blob/main/visuals/Distribution%20of%20age.png" width="300" height="300">
+
+<img src="https://github.com/QuantumQuaser/heart_stroke-_prediction/blob/main/visuals/Distribution%20of%20age.png" width="400" height="300">
 
 *Insight:* The age distribution curve suggests a bimodal trend, hinting at varied stroke risk across different life stages.
 
@@ -53,7 +54,7 @@ Our dataset encapsulates a broad spectrum of ages, capturing a demographic mosai
 
 Glucose levels are a pivotal metabolic marker, with their distribution shedding light on the metabolic health landscape of our dataset.
 
-![Glucose Level Distribution](https://github.com/QuantumQuaser/heart_stroke-_prediction/blob/main/visuals/Distribution%20of%20average%20glucose%20levels.png)
+<img src="https://github.com/QuantumQuaser/heart_stroke-_prediction/blob/main/visuals/Distribution%20of%20average%20glucose%20levels.png" width="400" height="300">
 
 *Insight:* A right-skewed glucose level distribution signals that while elevated glucose levels are less prevalent, their impact on stroke risk might be disproportionate, warranting a deeper dive into their role.
 
@@ -61,16 +62,15 @@ Glucose levels are a pivotal metabolic marker, with their distribution shedding 
 
 Body Mass Index (BMI) serves as a proxy for assessing the weight-related health status of individuals, with its distribution offering clues to the population's overall health.
 
-![BMI Distribution](visuals/Distribution of BMI.png)
+<img src="https://github.com/QuantumQuaser/heart_stroke-_prediction/blob/main/visuals/Distribution%20of%20BMI.png" width="400" height="300">
 
 *Insight:* The right skewness in BMI distribution echoes a concerning trend towards overweight and obesity, known risk factors for stroke.
 
 ### The Silent Afflictions: Heart Disease and Hypertension
 
 Heart disease and hypertension are often silent yet significant stroke risk factors. Their distribution in our dataset is critical for understanding their prevalence and impact.
-
-![Heart Disease Distribution](visuals/distribution of heart disease.png)
-![Hypertension Distribution](visuals/Distribution of hypertension.png)
+<img src="https://github.com/QuantumQuaser/heart_stroke-_prediction/blob/main/visuals/distribution%20of%20heart%20disease.png" width="400" height="300">
+<img src="https://github.com/QuantumQuaser/heart_stroke-_prediction/blob/main/visuals/Distribution%20of%20hypertension.png" width="400" height="300">
 
 *Insight:* Although less common, the presence of heart disease and hypertension could be instrumental in predicting stroke occurrences.
 
@@ -78,7 +78,7 @@ Heart disease and hypertension are often silent yet significant stroke risk fact
 
 The stroke occurrence distribution offers an unvarnished look at the dataset's balance and the stark contrast between stroke and non-stroke instances.
 
-![Stroke Cases Distribution](path/to/Distribution_of_stroke_cases.png)
+<img src="https://github.com/QuantumQuaser/heart_stroke-_prediction/blob/main/visuals/Distribution%20of%20stroke%20cases.png" width="400" height="300">
 
 *Insight:* The dataset presents a clear imbalance with a smaller proportion of stroke cases, challenging our model to learn from limited positive instances.
 
@@ -86,7 +86,7 @@ The stroke occurrence distribution offers an unvarnished look at the dataset's b
 
 A multidimensional analysis combining age and average glucose levels elucidates the potential interplay between these factors and stroke risk.
 
-![Combined Analysis](path/to/combined.png)
+<img src="https://github.com/QuantumQuaser/heart_stroke-_prediction/blob/main/visuals/combined.png" width="400" height="300">
 
 *Insight:* The scatter plot unveils a potential clustering of stroke cases among older individuals with higher glucose levels, suggesting a compound risk effect.
 
