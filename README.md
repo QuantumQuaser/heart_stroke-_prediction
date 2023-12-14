@@ -23,7 +23,6 @@ This project develops a machine learning model to predict stroke occurrences usi
 ## Data Loading
 The dataset for stroke prediction is loaded using Pandas, a powerful data manipulation library in Python.
 
-<a name="data-analysis"></a>
 
 ```python
 import pandas as pd
@@ -33,9 +32,9 @@ test_df = pd.read_csv('/path/to/stroke_test_set_nogt.csv')
 
 This step involves importing the necessary libraries and reading the training and testing datasets using Pandas.
 
+<a name="data-analysis"></a>
 
-
-## Project Overview
+## Dataset Overview
  Utilizing a rich dataset spanning various demographics, health indicators, and lifestyle choices, we endeavor to uncover patterns and correlations that may lead to a more profound understanding of stroke risks. Our goal is to leverage machine learning models to predict the likelihood of stroke events accurately.
 
 ## Data Insight and Exploration
