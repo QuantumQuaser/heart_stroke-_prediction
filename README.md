@@ -133,7 +133,7 @@ To gain deeper insights and uncover relationships within this data, we can use m
 ### Correlation Heatmap: 
 This will help in visualizing the correlation between numerical features like age, avg_glucose_level, and bmi. It's useful for identifying features that might be strongly correlated with the target variable (stroke).
 
-<img src="https://github.com/QuantumQuaser/heart_stroke-_prediction/blob/main/visuals/correlation%20heat%20map.png" width="500" height="500">
+<img src="https://github.com/QuantumQuaser/heart_stroke-_prediction/blob/main/visuals/correlation%20heat%20map.png" width="600" height="400">
 
 ### Pair Plot: 
 This is a great way to see both distribution of single variables and relationships between two variables. Pair plots can help identify trends and patterns that might be useful for classification.
