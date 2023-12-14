@@ -45,7 +45,7 @@ The journey begins with an exploratory data analysis (EDA), which serves as the 
 
 Our dataset encapsulates a broad spectrum of ages, capturing a demographic mosaic from toddlers to the elderly. The distribution of age is particularly significant, as it directly influences the stroke risk profile.
 
-![Age Distribution](path/to/Distribution_of_age.png)
+![Age Distribution](visuals/Distribution of age.png)
 
 *Insight:* The age distribution curve suggests a bimodal trend, hinting at varied stroke risk across different life stages.
 
@@ -53,7 +53,7 @@ Our dataset encapsulates a broad spectrum of ages, capturing a demographic mosai
 
 Glucose levels are a pivotal metabolic marker, with their distribution shedding light on the metabolic health landscape of our dataset.
 
-![Glucose Level Distribution](path/to/Distribution_of_avg_glucose_levels.png)
+![Glucose Level Distribution](visuals/Distribution of average glucose levels.png)
 
 *Insight:* A right-skewed glucose level distribution signals that while elevated glucose levels are less prevalent, their impact on stroke risk might be disproportionate, warranting a deeper dive into their role.
 
@@ -61,7 +61,7 @@ Glucose levels are a pivotal metabolic marker, with their distribution shedding 
 
 Body Mass Index (BMI) serves as a proxy for assessing the weight-related health status of individuals, with its distribution offering clues to the population's overall health.
 
-![BMI Distribution](path/to/Distribution_of_BMI.png)
+![BMI Distribution](visuals/Distribution of BMI.png)
 
 *Insight:* The right skewness in BMI distribution echoes a concerning trend towards overweight and obesity, known risk factors for stroke.
 
@@ -69,8 +69,8 @@ Body Mass Index (BMI) serves as a proxy for assessing the weight-related health 
 
 Heart disease and hypertension are often silent yet significant stroke risk factors. Their distribution in our dataset is critical for understanding their prevalence and impact.
 
-![Heart Disease Distribution](path/to/distribution_of_heart_disease.png)
-![Hypertension Distribution](path/to/Distribution_of_hypertension.png)
+![Heart Disease Distribution](visuals/distribution of heart disease.png)
+![Hypertension Distribution](visuals/Distribution of hypertension.png)
 
 *Insight:* Although less common, the presence of heart disease and hypertension could be instrumental in predicting stroke occurrences.
 
