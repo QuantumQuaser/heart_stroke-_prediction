@@ -168,7 +168,7 @@ param_grid_rf = {
 
 This step involves defining a range of potential values for the model's parameters and using cross-validation to identify the most effective combination.
 
-```markdown
+
 ## Hyperparameter Tuning with GridSearchCV
 
 Hyperparameter tuning is a critical step in the machine learning pipeline that can significantly enhance the performance of a model. It involves searching through a predefined range of hyperparameters to find the combination that produces the best results based on a chosen evaluation metric.
@@ -215,7 +215,6 @@ By running `grid_search_rf.fit(X, y)`, we fit the GridSearchCV object to the dat
 
 The hyperparameter tuning through `GridSearchCV` essentially fine-tunes the model to ensure that it not only learns well from the training data but also has a good generalization capability. This process plays a vital role in building a robust machine learning model capable of making accurate predictions.
 
-```
 
 
 <a name="model-evaluation"></a>
