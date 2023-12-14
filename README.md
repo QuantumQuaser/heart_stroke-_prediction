@@ -69,8 +69,7 @@ Body Mass Index (BMI) serves as a proxy for assessing the weight-related health 
 ### The Silent Afflictions: Heart Disease and Hypertension
 
 Heart disease and hypertension are often silent yet significant stroke risk factors. Their distribution in our dataset is critical for understanding their prevalence and impact.
-<img src="https://github.com/QuantumQuaser/heart_stroke-_prediction/blob/main/visuals/distribution%20of%20heart%20disease.png" width="400" height="300">
-<img src="https://github.com/QuantumQuaser/heart_stroke-_prediction/blob/main/visuals/Distribution%20of%20hypertension.png" width="400" height="300">
+<img src="https://github.com/QuantumQuaser/heart_stroke-_prediction/blob/main/visuals/distribution%20of%20heart%20disease.png" width="400" height="300"><img src="https://github.com/QuantumQuaser/heart_stroke-_prediction/blob/main/visuals/Distribution%20of%20hypertension.png" width="400" height="300">
 
 *Insight:* Although less common, the presence of heart disease and hypertension could be instrumental in predicting stroke occurrences.
 
@@ -86,7 +85,7 @@ The stroke occurrence distribution offers an unvarnished look at the dataset's b
 
 A multidimensional analysis combining age and average glucose levels elucidates the potential interplay between these factors and stroke risk.
 
-<img src="https://github.com/QuantumQuaser/heart_stroke-_prediction/blob/main/visuals/combined.png" width="400" height="300">
+<img src="https://github.com/QuantumQuaser/heart_stroke-_prediction/blob/main/visuals/combined.png" width="500" height="500">
 
 *Insight:* The scatter plot unveils a potential clustering of stroke cases among older individuals with higher glucose levels, suggesting a compound risk effect.
 
