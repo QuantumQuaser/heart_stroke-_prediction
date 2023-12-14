@@ -247,14 +247,6 @@ The predictions from the test dataset are stored in a DataFrame and exported as 
 This project demonstrates the application of various machine learning techniques in predicting stroke occurrences. Through rigorous preprocessing, model selection, and hyperparameter tuning, we achieved meaningful insights and predictions from the data.
 
 
-
-Certainly! Below is an expanded conclusion section for your README with a detailed explanation of the results in a table format. The table includes the F1 score, precision, recall, and accuracy for each class, providing an interpretation of the model's performance and suggestions for further improvement.
-
----
-
-<a name="conclusion"></a>
-## Conclusion
-
 After implementing and evaluating the stroke prediction model, we've derived key insights from its performance metrics. The table below summarizes the model's effectiveness based on the classification report:
 
 | Class | Precision | Recall | F1 Score | Support |
