@@ -53,7 +53,7 @@ Our dataset encapsulates a broad spectrum of ages, capturing a demographic mosai
 
 Glucose levels are a pivotal metabolic marker, with their distribution shedding light on the metabolic health landscape of our dataset.
 
-![Glucose Level Distribution](visuals/Distribution of average glucose levels.png)
+![Glucose Level Distribution](https://github.com/QuantumQuaser/heart_stroke-_prediction/blob/main/visuals/Distribution%20of%20average%20glucose%20levels.png)
 
 *Insight:* A right-skewed glucose level distribution signals that while elevated glucose levels are less prevalent, their impact on stroke risk might be disproportionate, warranting a deeper dive into their role.
 
