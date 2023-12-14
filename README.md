@@ -12,6 +12,7 @@ This project develops a machine learning model to predict stroke occurrences usi
 ## Table of Contents
 - [Data Loading](#data-loading)
 - [Data Analysis](#data-Analysis)
+- [Feature Engineering](#Feature-Engineering)
 - [Data Preprocessing](#data-preprocessing)
 - [Model Building](#model-building)
 - [Hyperparameter Tuning](#hyperparameter-tuning)
