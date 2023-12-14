@@ -7,6 +7,8 @@
 ## Overview
 This project develops a machine learning model to predict stroke occurrences using health-related data. The process involves data preprocessing, model building, hyperparameter tuning, and evaluation.
 
+# Comprehensive Stroke Risk Analysis with Machine Learning
+
 ## Table of Contents
 - [Data Loading](#data-loading)
 - [Data Analysis](#data-Analysis)
@@ -32,8 +34,6 @@ test_df = pd.read_csv('/path/to/stroke_test_set_nogt.csv')
 This step involves importing the necessary libraries and reading the training and testing datasets using Pandas.
 
 
-markdown
-# Comprehensive Stroke Risk Analysis with Machine Learning
 
 ## Project Overview
  Utilizing a rich dataset spanning various demographics, health indicators, and lifestyle choices, we endeavor to uncover patterns and correlations that may lead to a more profound understanding of stroke risks. Our goal is to leverage machine learning models to predict the likelihood of stroke events accurately.
