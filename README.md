@@ -45,7 +45,8 @@ The journey begins with an exploratory data analysis (EDA), which serves as the 
 
 Our dataset encapsulates a broad spectrum of ages, capturing a demographic mosaic from toddlers to the elderly. The distribution of age is particularly significant, as it directly influences the stroke risk profile.
 
-![Age Distribution](path/to/Distribution_of_age.png)
+
+<img src="https://github.com/QuantumQuaser/heart_stroke-_prediction/blob/main/visuals/Distribution%20of%20age.png" width="400" height="300">
 
 *Insight:* The age distribution curve suggests a bimodal trend, hinting at varied stroke risk across different life stages.
 
@@ -53,7 +54,7 @@ Our dataset encapsulates a broad spectrum of ages, capturing a demographic mosai
 
 Glucose levels are a pivotal metabolic marker, with their distribution shedding light on the metabolic health landscape of our dataset.
 
-![Glucose Level Distribution](path/to/Distribution_of_avg_glucose_levels.png)
+<img src="https://github.com/QuantumQuaser/heart_stroke-_prediction/blob/main/visuals/Distribution%20of%20average%20glucose%20levels.png" width="400" height="300">
 
 *Insight:* A right-skewed glucose level distribution signals that while elevated glucose levels are less prevalent, their impact on stroke risk might be disproportionate, warranting a deeper dive into their role.
 
@@ -61,7 +62,7 @@ Glucose levels are a pivotal metabolic marker, with their distribution shedding 
 
 Body Mass Index (BMI) serves as a proxy for assessing the weight-related health status of individuals, with its distribution offering clues to the population's overall health.
 
-![BMI Distribution](path/to/Distribution_of_BMI.png)
+<img src="https://github.com/QuantumQuaser/heart_stroke-_prediction/blob/main/visuals/Distribution%20of%20BMI.png" width="400" height="300">
 
 *Insight:* The right skewness in BMI distribution echoes a concerning trend towards overweight and obesity, known risk factors for stroke.
 
@@ -69,8 +70,7 @@ Body Mass Index (BMI) serves as a proxy for assessing the weight-related health 
 
 Heart disease and hypertension are often silent yet significant stroke risk factors. Their distribution in our dataset is critical for understanding their prevalence and impact.
 
-![Heart Disease Distribution](path/to/distribution_of_heart_disease.png)
-![Hypertension Distribution](path/to/Distribution_of_hypertension.png)
+<img src="https://github.com/QuantumQuaser/heart_stroke-_prediction/blob/main/visuals/distribution%20of%20heart%20disease.png" width="400" height="300"><img src="https://github.com/QuantumQuaser/heart_stroke-_prediction/blob/main/visuals/Distribution%20of%20hypertension.png" width="400" height="300">
 
 *Insight:* Although less common, the presence of heart disease and hypertension could be instrumental in predicting stroke occurrences.
 
@@ -78,7 +78,7 @@ Heart disease and hypertension are often silent yet significant stroke risk fact
 
 The stroke occurrence distribution offers an unvarnished look at the dataset's balance and the stark contrast between stroke and non-stroke instances.
 
-![Stroke Cases Distribution](path/to/Distribution_of_stroke_cases.png)
+<img src="https://github.com/QuantumQuaser/heart_stroke-_prediction/blob/main/visuals/Distribution%20of%20stroke%20cases.png" width="400" height="300">
 
 *Insight:* The dataset presents a clear imbalance with a smaller proportion of stroke cases, challenging our model to learn from limited positive instances.
 
@@ -86,7 +86,7 @@ The stroke occurrence distribution offers an unvarnished look at the dataset's b
 
 A multidimensional analysis combining age and average glucose levels elucidates the potential interplay between these factors and stroke risk.
 
-![Combined Analysis](path/to/combined.png)
+<img src="https://github.com/QuantumQuaser/heart_stroke-_prediction/blob/main/visuals/combined.png" width="500" height="500">
 
 *Insight:* The scatter plot unveils a potential clustering of stroke cases among older individuals with higher glucose levels, suggesting a compound risk effect.
 
@@ -124,6 +124,29 @@ With these insights, we pivot to predictive modeling, harnessing machine learnin
 - `models/` - Serialized versions of the trained machine learning models.
 - `visuals/` - Generated visualizations from the EDA.
 
+
+<a name="Feature _Engineering"></a>
+## Feature Engeneering 
+
+To gain deeper insights and uncover relationships within this data, we can use more sophisticated visualization techniques. Below are those we are gonna dive into:
+
+###Correlation Heatmap: 
+This will help in visualizing the correlation between numerical features like age, avg_glucose_level, and bmi. It's useful for identifying features that might be strongly correlated with the target variable (stroke).
+
+###Pair Plot: 
+This is a great way to see both distribution of single variables and relationships between two variables. Pair plots can help identify trends and patterns that might be useful for classification.
+
+###Box Plot for Categorical Data: 
+This can be used to see the distribution of numerical data across different categories like gender, work_type, and smoking_status.
+
+###Violin Plot: 
+Similar to box plots, but also shows the probability density of the data at different values. This is useful for comparing the distribution of numerical variables across different categories.
+
+###Scatter Plot with Hue for Categorical Data: 
+This plot can be used to visualize relationships between two numerical variables while also segmenting points by a categorical feature (e.g., showing avg_glucose_level vs. bmi, segmented by stroke).
+
+###Facet Grid: 
+Facet grid can create a grid of plots based on a categorical feature. This is useful for comparing distributions across different categories.
 
 
 
@@ -168,6 +191,55 @@ param_grid_rf = {
 
 This step involves defining a range of potential values for the model's parameters and using cross-validation to identify the most effective combination.
 
+
+## Hyperparameter Tuning with GridSearchCV
+
+Hyperparameter tuning is a critical step in the machine learning pipeline that can significantly enhance the performance of a model. It involves searching through a predefined range of hyperparameters to find the combination that produces the best results based on a chosen evaluation metric.
+
+### What is GridSearchCV?
+
+`GridSearchCV` is a powerful tool provided by the `scikit-learn` library, which automates the process of hyperparameter tuning. It systematically works through multiple combinations of parameter tunes, cross-validates each to determine which one gives the best performance.
+
+### How does Hyperparameter Tuning Affect the Model?
+
+Each machine learning algorithm comes with a set of hyperparameters that we can adjust to optimize its performance. These hyperparameters are not learned from the data; instead, they are set prior to the training process and remain constant during it. Adjusting these parameters impacts the learning process and the model's ability to generalize from the training data to unseen data.
+
+### Implementing GridSearchCV for RandomForestClassifier
+
+The `RandomForestClassifier` is an ensemble learning method that operates by constructing a multitude of decision trees at training time and outputting the class that is the mode of the classes (classification) of the individual trees. The following hyperparameters are commonly tuned:
+
+- `n_estimators`: The number of trees in the forest.
+- `max_depth`: The maximum depth of the trees.
+- `min_samples_split`: The minimum number of samples required to split an internal node.
+
+#### Example of GridSearchCV in Action
+
+For our stroke prediction model, we use `GridSearchCV` to find the best hyperparameters for the `RandomForestClassifier`. Here's how we set it up:
+
+```python
+from sklearn.model_selection import GridSearchCV
+
+# Define the parameter grid for RandomForestClassifier
+param_grid_rf = {
+    'randomforestclassifier__n_estimators': [100, 200, 300],
+    'randomforestclassifier__max_depth': [10, 15, 20, None],
+    'randomforestclassifier__min_samples_split': [2, 5, 10]
+}
+
+# Initialize the GridSearchCV object
+grid_search_rf = GridSearchCV(pipeline_rf, param_grid_rf, cv=5, scoring='f1', n_jobs=-1)
+```
+
+In the above code, we define a grid of hyperparameters to search through, initialize `GridSearchCV` with our model pipeline, and specify the number of folds for cross-validation (`cv=5`) and the scoring metric (`scoring='f1'`). The `n_jobs=-1` parameter tells the program to use all available cores on the processor to speed up the search.
+
+### The Outcome of Hyperparameter Tuning
+
+By running `grid_search_rf.fit(X, y)`, we fit the GridSearchCV object to the data. After the search is complete, `grid_search_rf` will contain the best model, which can be accessed with `grid_search_rf.best_estimator_`. This model is expected to have the optimal balance between bias and variance, making it adept at making predictions on new, unseen data.
+
+The hyperparameter tuning through `GridSearchCV` essentially fine-tunes the model to ensure that it not only learns well from the training data but also has a good generalization capability. This process plays a vital role in building a robust machine learning model capable of making accurate predictions.
+
+
+
 <a name="model-evaluation"></a>
 ## Model Evaluation
 The models are evaluated based on their F1 scores, precision, recall, and accuracy to determine their effectiveness in stroke prediction.
@@ -197,14 +269,6 @@ The predictions from the test dataset are stored in a DataFrame and exported as 
 ## Conclusion
 This project demonstrates the application of various machine learning techniques in predicting stroke occurrences. Through rigorous preprocessing, model selection, and hyperparameter tuning, we achieved meaningful insights and predictions from the data.
 
-
-
-Certainly! Below is an expanded conclusion section for your README with a detailed explanation of the results in a table format. The table includes the F1 score, precision, recall, and accuracy for each class, providing an interpretation of the model's performance and suggestions for further improvement.
-
----
-
-<a name="conclusion"></a>
-## Conclusion
 
 After implementing and evaluating the stroke prediction model, we've derived key insights from its performance metrics. The table below summarizes the model's effectiveness based on the classification report:
 
