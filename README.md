@@ -125,6 +125,29 @@ With these insights, we pivot to predictive modeling, harnessing machine learnin
 - `visuals/` - Generated visualizations from the EDA.
 
 
+<a name="Feature _Engineering"></a>
+## Feature Engeneering 
+
+To gain deeper insights and uncover relationships within this data, we can use more sophisticated visualization techniques. Below are those we are gonna dive into:
+
+###Correlation Heatmap: 
+This will help in visualizing the correlation between numerical features like age, avg_glucose_level, and bmi. It's useful for identifying features that might be strongly correlated with the target variable (stroke).
+
+###Pair Plot: 
+This is a great way to see both distribution of single variables and relationships between two variables. Pair plots can help identify trends and patterns that might be useful for classification.
+
+###Box Plot for Categorical Data: 
+This can be used to see the distribution of numerical data across different categories like gender, work_type, and smoking_status.
+
+###Violin Plot: 
+Similar to box plots, but also shows the probability density of the data at different values. This is useful for comparing the distribution of numerical variables across different categories.
+
+###Scatter Plot with Hue for Categorical Data: 
+This plot can be used to visualize relationships between two numerical variables while also segmenting points by a categorical feature (e.g., showing avg_glucose_level vs. bmi, segmented by stroke).
+
+###Facet Grid: 
+Facet grid can create a grid of plots based on a categorical feature. This is useful for comparing distributions across different categories.
+
 
 
 
