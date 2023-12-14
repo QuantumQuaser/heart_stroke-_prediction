@@ -69,6 +69,7 @@ Body Mass Index (BMI) serves as a proxy for assessing the weight-related health 
 ### The Silent Afflictions: Heart Disease and Hypertension
 
 Heart disease and hypertension are often silent yet significant stroke risk factors. Their distribution in our dataset is critical for understanding their prevalence and impact.
+
 <img src="https://github.com/QuantumQuaser/heart_stroke-_prediction/blob/main/visuals/distribution%20of%20heart%20disease.png" width="400" height="300"><img src="https://github.com/QuantumQuaser/heart_stroke-_prediction/blob/main/visuals/Distribution%20of%20hypertension.png" width="400" height="300">
 
 *Insight:* Although less common, the presence of heart disease and hypertension could be instrumental in predicting stroke occurrences.
