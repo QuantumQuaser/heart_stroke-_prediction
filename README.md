@@ -127,9 +127,7 @@ With these insights, we pivot to predictive modeling, harnessing machine learnin
 
 ```
 
-Replace `path/to/` with the actual paths to your images in your GitHub repository. If the images are stored in a folder named `images` at the root of your repository, the path would be `images/filename.png`.
 
-This README is designed to be thorough and educational, providing a narrative that walks through the data analysis process and its findings, as well as instructions on how to engage with the repository. It's ready to be copied and pasted into a `README.md` file on GitHub.
 
 <a name="data-preprocessing"></a>
 ## Data Preprocessing
