@@ -132,6 +132,9 @@ With these insights, we pivot to predictive modeling, harnessing machine learnin
 - `visuals/` - Generated visualizations from the EDA.
 
 
+  <p align="center"><img src="https://github.com/QuantumQuaser/heart_stroke-_prediction/blob/main/visuals/feature%20engineering.png" width="600" height="400"></p>
+
+
 <a name="Feature _Engineering"></a>
 ## Feature Engeneering 
 
