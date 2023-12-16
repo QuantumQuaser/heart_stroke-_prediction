@@ -37,7 +37,7 @@ This step involves importing the necessary libraries and reading the training an
 
 <a name="data-analysis"></a>
 
-## Dataset Overview
+
  Utilizing a rich dataset spanning various demographics, health indicators, and lifestyle choices, we endeavor to uncover patterns and correlations that may lead to a more profound understanding of stroke risks. Our goal is to leverage machine learning models to predict the likelihood of stroke events accurately.
 
 ## Data Insight and Exploration
