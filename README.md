@@ -1,5 +1,5 @@
 
-<img src="https://github.com/QuantumQuaser/heart_stroke-_prediction/blob/main/visuals/data_exploration.png" width="500" height="400">
+<p align="center"><img src="https://github.com/QuantumQuaser/heart_stroke-_prediction/blob/main/visuals/prediction_rob.png" width="600" height="400"></p>
 ---
 
 # Stroke Prediction Model
