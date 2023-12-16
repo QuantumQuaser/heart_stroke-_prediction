@@ -1,8 +1,8 @@
 
 <p align="center"><img src="https://github.com/QuantumQuaser/heart_stroke-_prediction/blob/main/visuals/prediction_rob.png" width="600" height="400"></p>
----
 
-# Stroke Prediction Model
+
+   # Stroke Prediction Model
 
 ## Comprehensive Stroke Risk Analysis with Machine Learning
 
