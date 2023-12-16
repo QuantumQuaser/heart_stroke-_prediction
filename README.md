@@ -4,10 +4,12 @@
 
 # Stroke Prediction Model
 
-## Overview
+## Comprehensive Stroke Risk Analysis with Machine Learning
+
+### Overview
 This project develops a machine learning model to predict stroke occurrences using health-related data. The process involves data preprocessing, model building, hyperparameter tuning, and evaluation.
 
-# Comprehensive Stroke Risk Analysis with Machine Learning
+
 
 ## Table of Contents
 - [Data Loading](#data-loading)
