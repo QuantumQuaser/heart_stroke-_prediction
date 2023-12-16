@@ -40,6 +40,10 @@ This step involves importing the necessary libraries and reading the training an
 
  Utilizing a rich dataset spanning various demographics, health indicators, and lifestyle choices, we endeavor to uncover patterns and correlations that may lead to a more profound understanding of stroke risks. Our goal is to leverage machine learning models to predict the likelihood of stroke events accurately.
 
+
+<p align="center"><img src="https://github.com/QuantumQuaser/heart_stroke-_prediction/blob/main/visuals/data_exploration.png" width="600" height="400"></p>
+
+
 ## Data Insight and Exploration
 
 The journey begins with an exploratory data analysis (EDA), which serves as the cornerstone for our predictive modeling. By scrutinizing the dataset, we extract meaningful insights and set the stage for advanced analytical techniques.
