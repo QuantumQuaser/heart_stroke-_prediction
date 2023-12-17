@@ -130,7 +130,6 @@ With these insights, we pivot to predictive modeling, harnessing machine learnin
 - `notebooks/` - Jupyter notebooks detailing
 
  the analysis process.
-- `scripts/` - Python scripts for preprocessing, model training, and evaluation.
 - `models/` - Serialized versions of the trained machine learning models.
 - `visuals/` - Generated visualizations from the EDA.
 
@@ -273,7 +272,7 @@ Although not explicitly stated in the code, the use of SelectFromModel in the co
 ## 7. Model Evaluation:
 Evaluation metrics like F1 Score and classification report provide a comprehensive understanding of model performance, especially precision, recall, and F1 score for each class, which are crucial in the context of imbalanced datasets.
 
-
+#  let's embark on the journey of exploring and understanding the stroke prediction model:
 
 <a name="data-preprocessing"></a>
 ## Data Preprocessing
