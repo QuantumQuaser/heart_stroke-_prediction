@@ -228,6 +228,10 @@ Allows comparison of a single distribution across different sub-categories.
 Understanding how distributions vary across categories can lead to creating features that are normalized or standardized within each group.
 ### Custom Labels for Categories: 
 Based on the distributions, custom thresholds for binning continuous variables within each category can be established.
+### Implications:
+Polynomial Features: Capturing complex, non-linear relationships that might not be apparent with linear models.
+One-Hot Encoding for Categorical Variables: Ensures that categorical variables are properly incorporated into the model.
+SMOTE for Imbalanced Datasets: Enhances the model’s ability to identify the minority class, which is often the class of interest in medical datasets like stroke prediction.
 
 # Comprehensive-Feature-Engineering-and-Model-Optimization-Plan-for-Stroke-Prediction-Analysis:
 
@@ -268,12 +272,6 @@ Although not explicitly stated in the code, the use of SelectFromModel in the co
 
 ## 7. Model Evaluation:
 Evaluation metrics like F1 Score and classification report provide a comprehensive understanding of model performance, especially precision, recall, and F1 score for each class, which are crucial in the context of imbalanced datasets.
-
-## Implications for Feature Engineering:
-Polynomial Features: Capturing complex, non-linear relationships that might not be apparent with linear models.
-One-Hot Encoding for Categorical Variables: Ensures that categorical variables are properly incorporated into the model.
-SMOTE for Imbalanced Datasets: Enhances the model’s ability to identify the minority class, which is often the class of interest in medical datasets like stroke prediction.
-
 
 
 
